@@ -1,0 +1,37 @@
+body {
+	font-family: Papyrus;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header {
+	padding-top: 20px;
+	color: white;
+	padding-bottom: 30px;
+	background: #7E5095;
+}
+
+.header img {
+	border-radius: 50%;
+}
+
+nav {
+	padding-top: 20px;
+}
+
+
+a {
+	padding: 10px 0;
+	color: white;
+	text-decoration: none;
+}
+
+.main-content {
+	padding: 70px;
+}
+
+
+h3 {
+	margin-bottom: 50px;
+	font-size: 17px;
+}
