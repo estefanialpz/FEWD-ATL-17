@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+body {
+	width: 100%;
+	background-color: #f0efef;
+}
+
+header {
+	padding: 10px 30px;
+	height: 100px;
+	background-color: #033048;
+}
+
+.logo {
+	float: left;
+}
+
+nav {
+	font-weight: semibold;
+	font-size: 24px;
+}
+
+nav ul {
+	list-style-type: none;
+	float: right;
+}
+
+nav li {
+	display: inline;
+}
+
+.main-content {
+	float: left;
+	width: 700px;
+}
+
+aside {
+	float: right;
+	width: 240px;
+}
+
+footer, .button {
+	clear: both;
+}
+
+

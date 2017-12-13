@@ -1,16 +1,16 @@
 background color: #f0efef
 yellow: #f9e42e
-dark blue: #033048
+**dark blue: #033048
 light grey: #606161
 almost black: #121212
 
 Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
 Weight: Light, Light Italic, Semibold, Extrabold
 
-Nav: Semibold, 24px
+**Nav: Semibold, 24px
 
-Main column width: 700px
-Sidebar width: 240px
+**Main column width: 700px
+**Sidebar width: 240px
 Gutter: 20px
 
 Post Titles - 40px, semibold

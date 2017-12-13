@@ -1,0 +1,52 @@
+* {
+	box-sizing: content-box;
+	}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+}
+
+header {
+	height: 200px;
+	clear: both;
+	background-color: lightgrey;
+	border: .5px solid grey;
+}
+
+.container {
+	margin: 20px 0;
+}
+
+.menu {
+	height: 400px;
+	float: left;
+	background-color: lightgrey;
+	border: .5px solid grey;
+	width: 15%;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}
+
+.main-content {
+	height: 400px;
+	float: left;
+	background-color: lightgrey;
+	border: .5px solid grey;
+	width: 65%;
+}
+
+.sidebar {
+	height: 400px;
+	float: right;
+	background-color: lightgrey;
+	border: .5px solid grey;
+	width: 15%;
+}
+
+footer {
+	height: 200px;
+	clear: both;
+	background-color: lightgrey;
+	border: .5px solid grey;
+}
