@@ -1,0 +1,32 @@
+html {
+	margin: 0 auto;
+	width: 100%;
+}
+
+header {
+	background-color: black;
+	height: 150px;
+	color: white;
+}
+
+.logo {
+	float: left;
+}
+
+nav {
+	clear: both;
+	float: right;
+}
+
+ul li {
+	display: inline;
+}
+
+.statement {
+	clear: both;
+}
+
+.main-content {
+	background-image: url("coworking.jpg");
+	height: 400px;
+}

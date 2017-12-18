@@ -1,0 +1,150 @@
+html {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+body {
+	font-family: 'Source Sans Pro';
+}
+
+header {
+	background-color: black;
+	height: 140px;
+	color: white;
+	border-bottom: #ffff4c 5px solid;
+	padding: 5px 0 15px;
+}
+
+.logo {
+	font-family: 'Merriweather';
+	color: #ffff4c;
+	padding: 5px 20px;
+	float: left;
+}
+
+nav {
+	font-size: 20px;
+	clear: both;
+	float: right;
+	padding: 0 100px;
+}
+
+ul li {
+	display: inline;
+}
+
+li {
+	padding: 10px;
+	font-family: 'Source Sans Pro';
+}
+
+.find-list {
+	font-family: 'Oswald';
+}
+
+.statement {
+	font-family: 'Merriweather';
+	height: 60px;
+	padding: 5px;
+	background-color: lightgrey;
+	clear: both;
+	text-align: center;
+	font-style: italic;
+}
+
+.taste {
+	color: darkgrey;
+	text-decoration: line-through;
+}
+
+.are {
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+.main-content {
+	background-image: url("images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 600px;
+}
+
+.create-profile {
+	box-sizing: border-box;
+	line-height: 30px;
+	background-color:rgba(255,255,255, 0.8);
+	font-size: 20px;
+	margin: 30px 50px;
+	padding: 20px;
+	border: 1.5px solid darkgrey;
+	float: right;
+	height: 430px;
+	width: 30%;
+}
+
+.create-profile button {
+	font-size: 18px;
+	margin: 20px 5px;
+	font-family: 'Oswald';
+	text-align: center;
+	background-color: #ffff4c;
+	padding: 5px 5px;
+	width: 100%;
+	height: 12%;
+}
+
+.container {
+	font-size: 18px;
+	padding: 10px 5px;
+	clear: both;
+}
+
+.container button {
+	font-size: 20px;
+	font-family: 'Oswald';
+	text-align: center;
+	background-color: lightgrey;
+	padding: 5px 20px;
+	width: 100%;
+}
+
+.container h2 {
+	font-family: 'Merriweather';
+}
+
+.sign-up {
+	box-sizing: border-box;
+	border-right: 1px solid grey;
+	padding: 2px 25px;
+	float: left;
+	width: 35%;
+	height: 250px;
+
+}
+
+.find-developer {
+	box-sizing: border-box;
+	border-right: 1px solid grey;
+	padding: 5px 25px;
+	float: left;
+	width: 30%;
+	height: 250px;
+
+}
+
+.find-designer {
+	box-sizing: border-box;
+	padding: 5px 25px;
+	float: left;
+	width: 35%;
+	height: 250px;
+
+}
+
+footer {
+	background-color: black;
+	height: 50px;
+	color: white;
+	padding: 5px 20px;
+	clear: both;
+}

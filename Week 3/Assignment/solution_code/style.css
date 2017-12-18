@@ -3,24 +3,41 @@
 	margin: 0 auto;
 }
 
+.wrapper {
+	font-family: 'Open Sans', sans-serif;
+	width: 1040px;
+}
+
 body {
-	width: 100%;
 	background-color: #f0efef;
 }
 
 header {
-	padding: 10px 30px;
-	height: 100px;
+	padding: 10px 60px;
+	height: 80px;
 	background-color: #033048;
 }
 
 .logo {
+	color: white;
 	float: left;
+	padding-top: 8px;
 }
 
-nav {
-	font-weight: semibold;
+nav, nav a {
+	color: #f9e42e;
+	text-align: center;
+	padding-top: 17px;
+	font-weight: 300;
 	font-size: 24px;
+}
+
+a:hover {
+    color: white;
+}
+
+a {
+	text-decoration: none;
 }
 
 nav ul {
@@ -29,21 +46,150 @@ nav ul {
 }
 
 nav li {
+	padding-right: 25px;
 	display: inline;
 }
 
+.container {
+	padding: 20px;
+} 
+
 .main-content {
 	float: left;
+	padding: 60px 2px 85px 40px;
 	width: 700px;
 }
 
-aside {
+.main-content img {
+	padding: 20px 0 20px;
+}
+
+.main-content h1 {
+	font-size: 40px;
+	font-weight: 600; 
+}
+
+
+.main-content p {
+	font-size: 24px;
+}
+
+p.first-letter:first-letter {
+	font-weight: 600;
+	font-size: 95px;
+	float: left; 
+ 	line-height: 80px;
+ 	padding-top: 4px; 
+ 	padding-right: 6px;
+
+}
+
+.read-more {
+	margin: 50px 0 20px;
+	font-size: 24px;
+	font-weight: 600;
+	float: right;
+	color: #033048;
+}
+
+.main-content a:hover {
+	font-style: italic;
+}
+
+aside a:hover {
+	color: #f9e42e;
+}
+
+hr {
+	clear: both;
+}
+
+
+.blog-post2 {
+	clear: both;
+	padding: 10px 0;
+}
+
+.sidebar {
+	padding-top: 50px;
 	float: right;
 	width: 240px;
+}
+
+.categories {
+	padding-bottom: 50px;
+}
+
+.categories ul, .categories a {
+	color: black;
+	font-size: 24px;
+	font-weight: 300;
+	padding: 0;
+	list-style-type: none;
+}
+
+.categories ul h2, .about h2 {
+	padding-bottom: 8px;
+	font-size: 32px;
+	font-weight: 800;
+	color: #033048;
+}
+
+.about p {
+	font-size: 22px;
+	font-weight: 300;
+}
+
+#learn-more {
+	color: black;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.about a:hover {
+	color: #f9e42e;
+}
+
+.ad {
+	margin-top: 40px;	
+}
+
+.button {
+	text-align: center;
+	background-color: #f9e42e;
+	padding: 20px;
+}
+
+.button button {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	color: white;
+	background-color: #033048;
+	padding: 10px 50px;
 }
 
 footer, .button {
 	clear: both;
 }
+
+footer {
+	background-color: #121212;
+	text-align: center;
+}
+
+footer h1 {
+	 color: #f9e42e;
+	 padding: 40px 0 50px;
+}
+
+footer img {
+	padding: 10px 20px 60px;
+}
+
+footer p {
+		color: white;
+		padding-bottom: 40px;
+	}
 
 
