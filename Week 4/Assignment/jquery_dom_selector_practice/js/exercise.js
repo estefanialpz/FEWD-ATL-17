@@ -21,13 +21,18 @@
 
 
  
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> upstream/master
 
 /**
  * Question 2:
  * When button 1 is clicked, select all <h2> elements on this page, and change the text to say your name.
  */
 
+<<<<<<< HEAD
  $('#button1').click(question2);
 
  function question2 () {
@@ -37,6 +42,9 @@
 
 
 
+=======
+	
+>>>>>>> upstream/master
 
 /**
  * Question 3:
@@ -44,6 +52,7 @@
  * Using jQuery change the content to read "True Fact".
  */
 
+<<<<<<< HEAD
  $('#button1').click(question3);
 
  function question3() {
@@ -53,6 +62,9 @@
 
 
 
+=======
+	
+>>>>>>> upstream/master
 
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
