@@ -1,0 +1,47 @@
+* {
+	text-align: center;
+}
+
+header {
+	padding: 120px 350px 10px;
+}
+
+#selfie {
+	border-radius: 45.5%;
+}
+
+.header-nav li {
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.projects {
+	padding: 60px 0 10px;
+}
+
+.projects-hidden {
+	visibility: hidden;
+}
+
+.contact img {
+	padding: 20px;
+}
+
+.contact button {
+	margin: 0 auto;
+	padding: 10px;
+	display: block;
+	text-align: center;
+
+}
+
+.main-nav li {
+	display: inline-block;
+	float: right;
+	padding: 5px;
+}
+
+.main-nav h2 {
+	float: left;
+	display: inline-block;
+}
