@@ -1,6 +1,6 @@
 // Refactor the following code to instead use the 'this' keyword
 
-$('#grayButton').click(switchGray);
+/* $('#grayButton').click(switchGray);
 $('#whiteButton').click(switchWhite);
 $('#blueButton').click(switchBlue);
 $('#yellowButton').click(switchYellow);
@@ -20,3 +20,10 @@ function switchBlue() {
 function switchYellow() {
   $('body').attr('class', 'yellow');
 }
+*/
+
+$('li').click(function() {
+	var liColor = $(this).attr('id'); 
+	$('body').attr('id', liColor); 
+});
+
