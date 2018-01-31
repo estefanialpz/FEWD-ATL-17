@@ -9,12 +9,13 @@ $('#form-temp').on('submit',function(e){
 
 	$('#farenheitTemp').html(tempF);
 
-	howDoesItFeel(tempC);
+	// howDoesItFeel(tempC);
 
-	$('#celsiusTemp').val('');
+	//$('#celsiusTemp').val('');
 
 });
 
+/* 
 function howDoesItFeel(number) {
 	if (number <= 65){
 		$('body').removeClass('orange yellow red');
@@ -30,3 +31,5 @@ function howDoesItFeel(number) {
 		$('body').addClass('red');
 	}
 }
+
+*/

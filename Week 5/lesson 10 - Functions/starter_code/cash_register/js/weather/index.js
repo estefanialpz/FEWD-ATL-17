@@ -9,6 +9,7 @@ function convertTemp(event) {
 	var tempC = $('#celcius').val();
 	tempC = parseInt(tempC);
 	var tempF = tempC * 1.8 + 32;
+	$("#fahrenheit").html(tempF);
 }
 
 
