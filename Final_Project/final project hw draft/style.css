@@ -6,6 +6,10 @@ header {
 	padding: 120px 350px 10px;
 }
 
+body {
+	
+}
+
 #selfie {
 	border-radius: 45.5%;
 }
@@ -19,20 +23,26 @@ header {
 	padding: 60px 0 10px;
 }
 
-.projects-hidden {
-	visibility: hidden;
+.hidden-projects {
+	visibility: hidden; 
+} 
+
+.thumbnail {
+	height: 188px;
+	width: 300px;
+	background-color: black;
+	color: white;
 }
 
 .contact img {
 	padding: 20px;
 }
 
-.contact button {
+#contact-me {
 	margin: 0 auto;
 	padding: 10px;
 	display: block;
 	text-align: center;
-
 }
 
 .main-nav li {
