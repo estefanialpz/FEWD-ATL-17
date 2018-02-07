@@ -1,48 +1,61 @@
 * {
-	text-align: center;
-}
-
-body {
-	background: #17136a;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0 auto;
 }
 
 header {
-	margin: 90px 260px 5px;
-	padding: 200px 80px 200px;
-	color: black;
-	background-color: lightgrey;
+	height: 800px;
+	background: url('images/main.jpeg') no-repeat fixed center;
+	background-size: cover;
 }
 
-body {
-	
+.header-text {
+	text-align: center;
+	font-size: 30px;
+	padding: 150px 450px 0 20px;
+	letter-spacing: 20px;
 }
 
-#selfie {
-	border-radius: 45.5%;
+.about {
+	font-size: 15px;
+	background-color: rgba(217, 239, 210, 0.3);
+	height: 250px;
 }
 
-.header-nav li {
-	display: inline-block;
-	padding-right: 50px;
+.about h2 {
+	padding: 80px;
+}
+
+.projects h1 {
+	letter-spacing: 10px;
+	padding-bottom: 50px;
 }
 
 .projects {
+	height: 600px;
+	text-align: center;
+	color: white;
+	background-color: #6C7A89;
 	padding: 60px 0 10px;
 }
 
-.hidden-projects {
-	visibility: hidden; 
-} 
-
 .thumbnail {
 	height: 188px;
-	width: 300px;
+	width: 280px;
+	margin: 5px;
 	background-color: black;
 	color: white;
 }
 
+.contact {
+	height: 200px;
+}
 
 .contact img {
+	padding: 20px;
+}
+
+.contact button {
 	padding: 20px;
 }
 
