@@ -19,7 +19,7 @@ pies.forEach(function(element,index){
 	}
 });
 
-//breakpoint example, put inside the function
+//breakpoint example, put inside the function Hello World
 function doSomething(){
 	$("body").append("<p>Paragraph</p>");
 	//console.log(myThing)
