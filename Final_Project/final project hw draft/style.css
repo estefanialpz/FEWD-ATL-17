@@ -2,8 +2,15 @@
 	text-align: center;
 }
 
+body {
+	background: #17136a;
+}
+
 header {
-	padding: 120px 350px 10px;
+	margin: 90px 260px 5px;
+	padding: 200px 80px 200px;
+	color: black;
+	background-color: lightgrey;
 }
 
 body {
@@ -33,6 +40,7 @@ body {
 	background-color: black;
 	color: white;
 }
+
 
 .contact img {
 	padding: 20px;
