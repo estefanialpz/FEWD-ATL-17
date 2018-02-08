@@ -185,3 +185,65 @@ footer {
 	color: white;
 	padding: 2% 3%;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+	* {
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+button {
+		background-color: black;
+		border: solid black 1px;
+		color: yellow;
+		display: inline-block;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.banner {
+		height: 350px;
+	}
+
+	.blurb {
+		margin: 30px;
+		font-size: 15px;
+		width: 70%;
+		height: 250px;
+	}
+
+	.tout {
+		font-size: 15px;
+		width: 100%;
+		margin: 10px 0;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
