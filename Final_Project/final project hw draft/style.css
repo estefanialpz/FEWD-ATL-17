@@ -3,6 +3,7 @@
 	margin: 0 auto;
 }
 
+
 header {
 	height: 800px;
 	background: url('images/main.jpeg') no-repeat fixed center;
@@ -16,6 +17,13 @@ header {
 	letter-spacing: 20px;
 }
 
+
+/****************************
+
+		ABOUT SECTION
+
+****************************/		
+
 .about {
 	font-size: 15px;
 	background-color: rgba(217, 239, 210, 0.3);
@@ -23,48 +31,191 @@ header {
 }
 
 .about h2 {
-	padding: 80px;
+	margin-right: 600px;
+	padding: 60px 0 20px 50px;
+	line-height: 50px;
+	display: block;
 }
 
-.projects h1 {
+
+.projects h2 {
+	clear: both;
 	letter-spacing: 10px;
 	padding-bottom: 50px;
 }
 
 .projects {
-	height: 600px;
+	height: 840px;
 	text-align: center;
 	color: white;
 	background-color: #6C7A89;
-	padding: 60px 0 10px;
+	padding: 60px 0 10px; 
 }
 
-.thumbnail {
-	height: 188px;
-	width: 280px;
-	margin: 5px;
-	background-color: black;
-	color: white;
+
+/* .image-grid {
+	width: 700px;
+}
+
+.image-grid img {
+	margin: 3px;
+}
+
+*/
+
+
+/***********************
+
+CONTACT SECTION 
+
+************************/
+
+#contact-heading {
+	float: right;
+	margin: 140px;
+	font-size: 100px;
+	letter-spacing: 20px;
 }
 
 .contact {
 	height: 200px;
 }
 
-.contact img {
-	padding: 20px;
+.contact-info {
+	float: left;
+	margin: 100px;
 }
 
-.contact button {
-	padding: 20px;
+.contact-info h3 {
+	color: black;
+	font-size: 40px;
+	line-height: 100px;
 }
 
-#contact-me {
+.contact-info p {
+	color: #404142;
+	font-size: 25px;
+	font-weight: 100;
+}
+
+button {
+	border-style: none;
+	font-size: 30px;
+}
+
+#phone, #mail {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+/*****************************
+
+	GRID STYLES
+
+******************************/
+
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
 	margin: 0 auto;
-	padding: 10px;
-	display: block;
+	list-style: none;
 	text-align: center;
 }
+
+.grid li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+/****** caption styles *********/
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.grid figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+}
+
+.cs-style-3 figure {
+	overflow: hidden;
+}
+
+.cs-style-3 figure img {
+	transition: transform 0.4s;
+}
+
+.cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+	transform: translateY(-45px);
+}
+
+.cs-style-3 figcaption {
+	height: 100px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	transform: translateY(100%);
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+	opacity: 1;
+	transform: translateY(0px);
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-3 figcaption a {
+	position: absolute;
+	bottom: 30px;
+	right: 48px;
+}
+
+
+.main-nav {
+	clear: both;
+}
+
 
 .main-nav li {
 	display: inline-block;
@@ -73,6 +224,194 @@ header {
 }
 
 .main-nav h2 {
+	color: #8A2C3D;
+	margin: 25px 0 0 5px;
 	float: left;
 	display: inline-block;
+}
+
+
+a {
+	color: black;
+}
+
+.main-nav a:hover {
+	font-size: 15px;
+}
+
+
+/******** SOCIAL MEDIA ************/
+
+.fa-instagram {
+	font-size: 50px;
+  	background: white;
+  	color: #125688;
+}
+
+.fa-instagram:hover {
+	color: white;
+	background: #125688;
+	padding: 2px;
+}
+
+.fa-tumblr {
+	font-size: 50px;
+  	background: white;
+  	color: #2c4762;
+}
+
+.fa-tumblr:hover {
+	background: #2c4762;
+	color: white;
+	padding: 2px;
+}
+
+.fa-twitter {
+	font-size: 50px;
+  	background: white;
+  	color: #55ACEE;
+}
+
+.fa-twitter:hover {
+	background: #55ACEE;
+	color: white;
+	padding: 2px;
+}
+
+.fa-github {
+	font-size: 50px;
+	background: white;
+	color: purple;
+}
+
+.fa-github:hover {
+	background: purple;
+	color: white;
+	padding: 2px;
+}
+
+
+
+@media only screen and (max-width : 400px) {
+
+	header {
+		background-size: auto;
+		height: 100%;
+	}
+
+	.header-text {
+		font-size: 20px;
+		letter-spacing: 15px;
+		line-height: 80px;
+		padding: 100px 0;
+	}
+
+	.about {
+		height: 40%;
+	}
+
+	.about h2 {
+		text-align: center;
+		margin: 0;
+		padding: 70px 0 100px;
+	}
+
+	.projects {
+		height: 100%;
+	}
+
+	.grid {
+		padding: 10px 10px 100px 0px;
+	}
+
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+		padding: 15px 5px 0px;
+	} 
+
+	.contact {
+		height: 30%;
+	}
+
+	#contact-heading {
+		font-size: 40px;
+		padding: 0;
+		margin: 0 50px 0;
+		letter-spacing: 20px;
+	}
+
+	.contact-info h3 {
+		margin: 0;
+		line-height: 50px;
+		font-size: 30px;
+		padding-left: 0;
+	}
+
+	.contact-info p {
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (max-width : 720px) and (min-width: 401px){
+
+	header {
+		background-size: auto;
+		height: 100%;
+	}
+
+	.header-text {
+		font-size: 20px;
+		letter-spacing: 15px;
+		line-height: 80px;
+		padding: 100px 0;
+	}
+
+	.about {
+		height: 40%;
+	}
+
+	.about h2 {
+		text-align: center;
+		margin: 0;
+		padding: 70px 0 100px;
+	}
+
+	.projects {
+		height: 100%;
+	}
+
+	.grid {
+		padding: 10px 10px 100px 0px;
+	}
+
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+		padding: 15px 5px 0px;
+	} 
+
+	.contact {
+		height: 60%;
+	}
+
+	#contact-heading {
+		font-size: 40px;
+		padding: 0;
+		margin: 0 50px 0;
+		letter-spacing: 20px;
+	}
+
+	.contact-info h3 {
+		margin: 0;
+		line-height: 50px;
+		font-size: 30px;
+		padding-left: 0;
+	}
+
+	.contact-info p {
+		font-size: 20px;
+	}
+
 }

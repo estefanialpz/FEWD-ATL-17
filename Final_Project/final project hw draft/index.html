@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
 		<title>Nia</title>
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="animate.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body>
+	<body id="top">
 		<header>
 			<div class="header-text">
 				<h1>NIA'S PORTFOLIO</h1>
@@ -12,45 +16,99 @@
 		</header>
 
 		<section class="about">
+				<h2>Hey there. I'm Nia. A student of web development based in Atlanta, GA. This is my portfolio. :)</h2>
+			</div>
 
-			<h2>Dum dee da da dum do boop.</h2>
 
 		</section>
 
 		<section class="projects">
 
-			<h1>projects</h1>
+			<h2>projects</h2>
 
-			<button class="thumbnail" id="citipix">citipix</button>
-			
-			<button class="thumbnail" id="relaxr">relaxr</button>
-			
-			<button class="thumbnail" id="wake-the-dead">wake the dead</button>
+			<!-- projects will be images w/ largeish simple typography, solid background -->
 
-			<button class="thumbnail" id="calmadita">calmadita</button>
-			<button class="thumbnail" id="wedding">wedding day</button>
-			<button class="thumbnail" id="otherthing">other thing</button>
+			<div class="image-grid">
+
+				<ul class="grid cs-style-3">	
+					<li>
+						<figure>
+							<img src="images/citipix-a.jpg">
+							<figcaption>
+								<h3>Citipix.</h3>
+								<span>A simple JQuery project.</span>
+								<a href="www.google.com">Take a Look</a>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="images/wakthedead-a.jpg">
+							<figcaption>
+								<h3>Wake the Dead.</h3>
+								<span>A one-page site for a small cafe in San Marcos, TX.</span>
+								<a href="google.com">Take a Look</a>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="images/relaxr-a.jpg">
+							<figcaption>
+								<h3>Relaxr.</h3>
+								<span>A simple blog site I made through General Assembly.</span>
+								<a href="www.google.com">Take a Look</a>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure>
+							<img src="images/calmadita-a.jpg">
+							<figcaption>
+								<h3>Calmadita.</h3>
+								<span>A travel-guide site of beach towns across the US.</span>
+								<a href="www.google.com">Take a Look</a>
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+			</div>
+
 		</section>
 
 		<section class="contact">
+			<h2 id="contact-heading">contact</h2>
+
+			<div class="contact-info">
 			
-			<!-- button to expand and change color on hover -->
-			<button type="button" id="contact-me">email me</button>
+				<h3>phone
+				<button class="show-phone"><i class="fa fa-angle-double-down"></i></button></h3>
+				<p id="phone">210.705.4570</p>
+
+				<h3>email
+				<button class="show-mail"><i class="fa fa-angle-double-down"></i></button></h3>
+				<p id="mail">estefania.lpz0@gmail.com</p>
+			
+			</div>
+
 		</section>
 
 
 				<!-- sticky nav bar to display as user scrolls down the page -->
 		<nav class="main-nav">
-			<h2>back to top</h2>
+			<a href="#top">
+			<h2>back to top</h2></a>
 			<ul>
-				<li><i class="fab fa-twitter"></i></li>
-				<li><i class="fab fa-instagram"></i></li>
-				<li><i class="fab fa-tumblr"></i></li>
-				<li><i class="fab fa-github"></i></li>
+				<li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-github"></i></a></li>
 			</ul>	
 		</nav>
 
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/index.js"></script>
 
 
 	</body>
